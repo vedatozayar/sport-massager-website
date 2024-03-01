@@ -367,24 +367,32 @@ color:var(--first-color);;
 }
 
 /*=============== SERVICES ===============*/
-.services__container{
-  row-gap:2rem ;
-}
+
 
 .services__img{
   
   justify-self: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  
+  }
+
+  .massage_img{
+    margin-bottom: var(--mb-2);
   }
 
 .services__title{
-  margin-bottom: var(--mb-1);
+  
   color: var(--first-color);
 }
 
 .services__description{
   margin-bottom: var(--mb-2);
+}
+.services__details-text{
+  margin-bottom: var(--mb-2);
+  
+
 }
 
 
@@ -702,6 +710,9 @@ column-gap: 0.75rem;
   .home__img{
     width: 280px;
     order: 1;
+  }
+  .wide{
+    grid-column: span 2;
   }
   .home__social{
     top: 30%;
