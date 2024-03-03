@@ -690,6 +690,12 @@ the website, in dark theme
   .wide {
     grid-column: span 2;
   }
+  .line {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
   .home__social {
     top: 30%;
   }
