@@ -89,3 +89,4 @@ sr.reveal(`.services__img,.contact__information-card,.left`, {
 });
 sr.reveal(`.services__details,.contact__map,.right`, { origin: "right" });
 sr.reveal(`.prices__card,.footer`, { interval: 100 });
+
